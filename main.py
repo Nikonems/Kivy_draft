@@ -64,7 +64,7 @@ class WindowManager(ScreenManager):
 	pass
 
 # Designate Our .kv design file 
-kv = Builder.load_file('sales.kv')
+kv = Builder.load_file('main.kv')
 
 
 class AwesomeApp(App):
